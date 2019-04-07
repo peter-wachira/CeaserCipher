@@ -1,6 +1,8 @@
+import java.util.Scanner;
+
 public class Decrypt {
 
-    public static StringBuilder dencrypt(String text, int s)
+    public static StringBuilder decrypt(String text, int s)
     {
         StringBuilder result= new StringBuilder();
 
@@ -9,7 +11,7 @@ public class Decrypt {
             if (Character.isUpperCase(text.charAt(i)))
             {
                 char ch = (char)(((int)text.charAt(i) +
-                        s - 65) % 26 - 65);
+                        s - 65) % 26 + 65);
                 result.append(ch);
             }
             else
@@ -21,4 +23,5 @@ public class Decrypt {
         }
         return result;
     }
+
 }

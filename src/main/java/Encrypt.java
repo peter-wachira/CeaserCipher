@@ -1,7 +1,15 @@
+package CaesarCipher;
+
+
+
 public class Encrypt {
 
+
+
     public static StringBuilder encrypt(String text, int s)
+
     {
+
         StringBuilder result= new StringBuilder();
 
         for (int i=0; i<text.length(); i++)
@@ -20,5 +28,8 @@ public class Encrypt {
             }
         }
         return result;
+
     }
+
+
 }

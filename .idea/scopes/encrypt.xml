@@ -1,0 +1,3 @@
+<component name="DependencyValidationManager">
+  <scope name="encrypt" pattern="src[com_main]:App" />
+</component>
