@@ -29,8 +29,8 @@ public class Decrypt {
             }
             else {
 
-                char ch = encryptedStory.charAt(i);
-                return decryptedText.append(ch);
+//                char ch = encryptedStory.charAt(i);
+//                return decryptedText.append(ch);
             }
 
         }
