@@ -13,6 +13,15 @@ public class App {
 
 
         Scanner myScanner = new Scanner(System.in);
+        System.out.println("╔╦═╦╦═╦╗╔═╦═╦═╦═╦═╗╔╗▒▒▒\n" +
+                "║║║║║╦╣║║╔╣║║║║║║╦╝║╚╦═╗\n" +
+                "║║║║║╩╣╚╣╚╣║║║║║║╩╗║╔╣╬║\n" +
+                "╚═╩═╩═╩═╩═╩═╩╩═╩╩═╝╚═╩═╝\n"+"╔═╗░░░░╔═╗░░░░╔═╦╗░╔╗░░░░░\n" +
+                "║╔╬═╦═╗║═╬═╦╦╗║╔╬╬═╣╚╦═╦╦╗\n" +
+                "║╚╣╩╣╬╚╬═║╩╣╔╝║╚╣║╬║║║╩╣╔╝\n" +
+                "╚═╩═╩══╩═╩═╩╝░╚═╩╣╔╩╩╩═╩╝░\n" +
+                "░░░░░░░░░░░░░░░░░╚╝░░░░░░░\n");
+        System.out.println("");
         System.out.println("Welcome to  Ceaser Cipher program *^-^*  Do you want to encrypt or decrypt?");
         String choice = myScanner.nextLine();
 
