@@ -1,27 +1,37 @@
-import java.util.Scanner;
+package CaesarCipher;
+
 
 public class Decrypt {
 
-    public static StringBuilder decrypt(String text, int s)
+    public static StringBuilder decrypt(String encryptedStory, int key)
     {
-        StringBuilder result= new StringBuilder();
+        StringBuilder decryptedText= new StringBuilder();
 
-        for (int i=0; i<text.length(); i++)
+        if (key > 26) {
+            key = key % 26;
+        } else if (key < 0) {
+            key = (key % 26) + 26;
+        }
+
+        for (int i=0; i<encryptedStory.length(); i++)
         {
-            if (Character.isUpperCase(text.charAt(i)))
+            if (Character.isUpperCase(encryptedStory.charAt(i)))
             {
-                char ch = (char)(((int)text.charAt(i) +
-                        s - 65) % 26 + 65);
-                result.append(ch);
+                char ch = (char)(((int)encryptedStory.charAt(i) -
+                        key - 65) % 26 + 65);
+                decryptedText.append(ch);
             }
             else
             {
-                char ch = (char)(((int)text.charAt(i) +
-                        s - 97) % 26 - 97);
-                result.append(ch);
+                char ch = (char)(((int)encryptedStory.charAt(i) -
+                        key - 97) % 26 + 97);
+                decryptedText.append(ch);
             }
         }
-        return result;
+        return decryptedText;
     }
 
 }
+
+
+
