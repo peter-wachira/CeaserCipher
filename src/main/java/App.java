@@ -1,5 +1,3 @@
-
-
 import java.util.Scanner;
 
 import static CaesarCipher.Encrypt.encrypt;
@@ -7,9 +5,48 @@ import static CaesarCipher.Encrypt.encrypt;
 
 public class App {
 
+
+//    public static void displayMenu(){
+//
+//        JTextField decodeField = new JTextField(20);
+//
+//        JTextField encodeField = new JTextField(20);
+//
+//        JButton letters = new JButton("Display the alphabet");
+//        JButton exit = new JButton("Exit the program");
+//
+//        JPanel myPanel = new JPanel();
+//        myPanel.add(new JLabel("Decode a message:"));
+//
+//        myPanel.add(decodeField);
+//        myPanel.add(Box.createHorizontalStrut(15)); // a spacer
+//        myPanel.add(new JLabel("Encode a message:"));
+//
+//        myPanel.add(encodeField);
+//        myPanel.add(letters);
+//
+//        myPanel.add(exit);
+//
+//        int result = JOptionPane.showConfirmDialog(null, myPanel,
+//
+//                "", JOptionPane.OK_CANCEL_OPTION);
+//
+//        if (result == JOptionPane.OK_OPTION) {
+//
+//
+//        }
+//      displayMenu();
+//    }
+
+
     public static void main(String[] args) {
+
+
+
+
+
         Scanner myScanner = new Scanner(System.in);
-        System.out.println("Welcome to  Ceaser Cipher program, Do you want to encrypt or decrypt");
+        System.out.println("Welcome to  Ceaser Cipher program *^-^*  Do you want to encrypt or decrypt?");
         String choice = myScanner.nextLine();
 
         if (choice.equalsIgnoreCase("encrypt")) {
@@ -32,9 +69,7 @@ public class App {
             System.out.println(decryptedText);
             System.out.println("-------------------------------------------");
         } else {
-            System.out.println("Sorry, your input is invalid");
-
-
+            System.out.println("invalid choice, please choose encrypt or decrypt");
         }
     }
 }
