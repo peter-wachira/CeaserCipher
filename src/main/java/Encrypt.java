@@ -18,14 +18,24 @@ public class Encrypt {
             {
                 char ch = (char)(((int)text.charAt(i) +
                         s - 65) % 26 + 65);
-                result.append(ch);
+                if(ch >'Z'){
+                    result.append((char)( text.charAt(i) -(26-s)));
+                } else {
+                    result.append(ch);
+                }
 
             }
             else if( Character.isLowerCase(text.charAt(i)))
             {
                 char ch = (char)(((int)text.charAt(i) +
                         s - 97) % 26 + 97);
-                result.append(ch);
+
+                if(ch >'z'){
+                    result.append((char)( text.charAt(i) -(26-s)));
+                } else {
+                    result.append(ch);
+                }
+
             }
             else{
 

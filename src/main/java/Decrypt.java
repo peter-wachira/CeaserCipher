@@ -19,13 +19,22 @@ public class Decrypt {
             {
                 char ch = (char)(((int)encryptedStory.charAt(i) -
                         key - 65) % 26 + 65);
-                decryptedText.append(ch);
+                if(ch <'A'){
+                    decryptedText.append((char)( encryptedStory.charAt(i) +(26-key)));
+                } else {
+                    decryptedText.append(ch);
+                }
             }
             else if(Character.isLowerCase(encryptedStory.charAt(i)))
             {
                 char ch = (char)(((int)encryptedStory.charAt(i) -
                         key - 97) % 26 + 97);
-                decryptedText.append(ch);
+                if(ch <'a'){
+                    decryptedText.append((char)( encryptedStory.charAt(i) +(26-key)));
+                } else {
+                    decryptedText.append(ch);
+                }
+
             }
             else {
 
