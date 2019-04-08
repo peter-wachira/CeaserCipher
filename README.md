@@ -39,4 +39,4 @@ SDK```
 
 ## Contact Details
 ```bash
-You can contact me at jaciegatz@gmail.com```
+You can contact me at pwachira900@gmail.com```
