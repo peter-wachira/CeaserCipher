@@ -1,11 +1,9 @@
-Peter Wachira
-
-# Project Name
-
-Caeser Cipher
+# Ceaser Cipher
+#### Ceaser Cipher, April 8th 2019
+#### By **Peter Wachira**
 
 ## Author's name
-
+Peter Wachira
 
 ```bash
 Peter Wachira
