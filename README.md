@@ -14,7 +14,8 @@ Peter Wachira
 ## Description
 
 ```bash
-This application allows USERS to input their stories and a private key that encrypts their meassage. A Caesar cipher is a type of substitution in which each letter is shifted a certain number of places also known as a key, down the alphabet.  For example, with a shift of 1, A would be replaced by B, B would become C, and so on. The key is an integer from 1 to 25. This cipher rotates the letters of the alphabet (A to Z). The encoding replaces each letter with the 1st to 25th next letter in the alphabet (wrapping Z to A).```
+This application allows USERS to input their stories and a private key that encrypts their meassage. A Caesar cipher is a type of substitution in which each letter is shifted a certain number of places also known as a key, down the alphabet.  For example, with a shift of 1, A would be replaced by B, B would become C, and so on. The key is an integer from 1 to 25. This cipher rotates the letters of the alphabet (A to Z). The encoding replaces each letter with the 1st to 25th next letter in the alphabet (wrapping Z to A).
+```
 
 ## User Requirements
 ```bash
@@ -35,13 +36,17 @@ The applications allow users to do the following:
 ```
 ## Technology Used
 ```bash
-JDK
-Junit
-Java
-SDK
+1.JDK
+2.Junit
+3.Java
+4.SDK
 ```
 
 ## Contact Details
 ```bash
 You can contact me at pwachira900@gmail.com
 ```
+
+## License
+
+- This project is licensed under the MIT Open Source license Copyright (c) 2019. [Peter Wachira](https://github.com/peter-wachira)
