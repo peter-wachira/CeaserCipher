@@ -21,12 +21,18 @@ public class Decrypt {
                         key - 65) % 26 + 65);
                 decryptedText.append(ch);
             }
-            else
+            else if(Character.isLowerCase(encryptedStory.charAt(i)))
             {
                 char ch = (char)(((int)encryptedStory.charAt(i) -
                         key - 97) % 26 + 97);
                 decryptedText.append(ch);
             }
+            else {
+
+                char ch = encryptedStory.charAt(i);
+                return decryptedText.append(ch);
+            }
+
         }
         return decryptedText;
     }
