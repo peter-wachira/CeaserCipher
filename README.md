@@ -8,7 +8,8 @@ Caeser Cipher
 
 
 ```bash
-Peter Wachira```
+Peter Wachira
+```
 
 ## Description
 
@@ -21,7 +22,8 @@ The applications allow users to do the following:
 1.Choose between encrypting and Decrypting choices
 2.Enter their message and private key
 3.See the encrypted message
-4.Decrypt the message```
+4.Decrypt the message
+```
 
 ## Project setup
 ```bash
@@ -29,14 +31,17 @@ The applications allow users to do the following:
 
 2.Clone the project into your machine from https://github.com/peter-wachira/CeaserCipher.git
 
-3.Run javac ceasercipher.java to compile and java ceasercipher to run the program```
+3.Run javac ceasercipher.java to compile and java ceasercipher to run the program
+```
 ## Technology Used
 ```bash
 JDK
 Junit
 Java
-SDK```
+SDK
+```
 
 ## Contact Details
 ```bash
-You can contact me at pwachira900@gmail.com```
+You can contact me at pwachira900@gmail.com
+```
