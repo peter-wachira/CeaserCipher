@@ -7,28 +7,20 @@
       <change afterPath="$PROJECT_DIR$/../Apps/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Apps/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Apps/Apps.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Decrypt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/DecryptTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/EncryptTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Pingpong/.idea/gradle.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Pingpong/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Pingpong/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Pingpong/src/main/java/PingPong.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Practice/.idea/gradle.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Practice/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Practice/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Angular/IPS/Quotes-Angular/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Angular/IPS/Quotes-Angular/src/app/app.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Angular/IPS/Quotes-Angular/src/app/app.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../Angular/IPS/Quotes-Angular/src/app/app.component.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Angular/IPS/Quotes-Angular/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Angular/IPS/Quotes-Angular/src/app/app.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Angular/IPS/Quotes-Angular/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../Angular/IPS/Quotes-Angular/src/styles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Encrypt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Encrypt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../javatests" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../jumia-clone" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../moringaschool/bootstrap-3.3.7-dist/css/bootstrap-theme.css" beforeDir="false" />
@@ -173,23 +165,23 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1586" />
+          <entry key="java" value="1848" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1586" />
+          <entry key="JAVA" value="1848" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="19" column="29" selection-end-line="27" selection-end-column="1" />
+            <state relative-caret-position="335">
+              <caret line="37" column="1" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -200,17 +192,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Encrypt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
+            <state relative-caret-position="39">
               <caret line="26" column="43" lean-forward="true" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Decrypt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="32" column="36" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
+            <state>
+              <caret lean-forward="true" />
             </state>
           </provider>
         </entry>
@@ -530,9 +522,9 @@
         <option value="$PROJECT_DIR$/src/test/java/DecryptTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/EncryptTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/AppTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/Encrypt.java" />
         <option value="$PROJECT_DIR$/src/main/java/Decrypt.java" />
+        <option value="$PROJECT_DIR$/src/main/java/App.java" />
       </list>
     </option>
   </component>
@@ -606,7 +598,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554711628460" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554713905389" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="Encrypt" />
     <property name="project.structure.last.edited" value="Project" />
@@ -690,6 +682,36 @@
     <frame x="0" y="25" width="1366" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1621212" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.26101142" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5007576" side_tool="true" weight="0.32952693" />
+      <window_info anchor="bottom" id="Build" order="9" weight="0.32952693" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49924242" weight="0.11745514" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.24143556" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Gradle" order="7" weight="0.32954547" />
+      <window_info anchor="right" id="Maven Projects" order="8" visible="true" weight="0.15530303" />
+    </layout>
+    <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16287878" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
@@ -699,7 +721,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26101142" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.26101142" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -708,7 +730,7 @@
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5007576" side_tool="true" weight="0.32952693" />
       <window_info anchor="bottom" id="Build" order="9" weight="0.32952693" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49924242" weight="0.11745514" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32952693" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32952693" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -718,7 +740,7 @@
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Gradle" order="7" weight="0.32954547" />
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.15530303" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -738,16 +760,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="19" column="29" selection-end-line="27" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/AppTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -757,15 +769,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Encrypt.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
+        <state relative-caret-position="39">
           <caret line="26" column="43" lean-forward="true" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Decrypt.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="32" column="36" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="37" column="1" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

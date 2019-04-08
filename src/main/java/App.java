@@ -2,27 +2,37 @@
 
 import java.util.Scanner;
 
-import static CaesarCipher.Decrypt.decrypt;
 import static CaesarCipher.Encrypt.encrypt;
 
 
-public class App
-{
+public class App {
 
     public static void main(String[] args) {
         Scanner myScanner = new Scanner(System.in);
-        System.out.println("Enter your story");
-        String words = myScanner.nextLine();
-        System.out.println("Enter your private key");
-        int key = myScanner.nextInt();
+        System.out.println("Welcome to  Ceaser Cipher program, Do you want to encrypt or decrypt");
+        String choice = myScanner.nextLine();
 
-        StringBuilder encryptedStory = (encrypt( words, key));
-        System.out.println("Here is your Encrpted story");
-        System.out.println(encryptedStory);
-
-        StringBuilder decryptedText;
-        decryptedText = (decrypt(encryptedStory.toString(), key));
-        System.out.println("Here is your decrypted story");
-        System.out.println(decryptedText);
+        if (choice.equalsIgnoreCase("encrypt")) {
+            System.out.println("Enter text to encrypt");
+            String words = myScanner.nextLine();
+            System.out.println("Enter shift key");
+            int key = myScanner.nextInt();
+            StringBuilder encryptedStory = (encrypt(words, key));
+            System.out.println("Here is your Encrpted story");
+            System.out.println(encryptedStory);
+            System.out.println("-------------------------------------------");
+        } else if (choice.equalsIgnoreCase("decrypt")) {
+            System.out.println("Enter text to decrypt");
+            String decryptionText = myScanner.nextLine();
+            System.out.println("Enter shift key");
+            int key = myScanner.nextInt();
+            CaesarCipher.Decrypt ceaserCipher = new CaesarCipher.Decrypt();
+            StringBuilder decryptedText = ceaserCipher.decrypt(decryptionText, key);
+            System.out.println("Check out your deciphered text below:");
+            System.out.println(decryptedText);
+            System.out.println("-------------------------------------------");
+        } else {
+            System.out.println("Sorry, your input is invalid");
+        }
     }
 }
