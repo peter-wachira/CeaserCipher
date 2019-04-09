@@ -1,3 +1,5 @@
+package CaesarCipher;
+
 import java.util.Scanner;
 
 import static CaesarCipher.Encrypt.encrypt;
@@ -30,7 +32,7 @@ public class App {
             String words = myScanner.nextLine();
             System.out.println("Enter shift key");
             int key = myScanner.nextInt();
-            StringBuilder encryptedStory = (encrypt(words, key));
+            String encryptedStory = (encrypt(words, key));
             System.out.println("Here is your Encrpted story");
             System.out.println(encryptedStory);
             System.out.println("-------------------------------------------");
@@ -40,7 +42,7 @@ public class App {
             System.out.println("Enter shift key");
             int key = myScanner.nextInt();
             CaesarCipher.Decrypt ceaserCipher = new CaesarCipher.Decrypt();
-            StringBuilder decryptedText = ceaserCipher.decrypt(decryptionText, key);
+            String decryptedText = ceaserCipher.decrypt(decryptionText, key);
             System.out.println("Check out your deciphered text below:");
             System.out.println(decryptedText);
             System.out.println("-------------------------------------------");

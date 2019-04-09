@@ -3,9 +3,9 @@ package CaesarCipher;
 
 public class Decrypt {
 
-    public static StringBuilder decrypt(String encryptedStory, int key)
+    public static String decrypt(String encryptedStory, int key)
     {
-        StringBuilder decryptedText= new StringBuilder();
+        String decryptedText= "";
 
         if (key > 26) {
             key = key % 26;
@@ -20,9 +20,9 @@ public class Decrypt {
                 char ch = (char)(((int)encryptedStory.charAt(i) -
                         key - 65) % 26 + 65);
                 if(ch <'A'){
-                    decryptedText.append((char)( encryptedStory.charAt(i) +(26-key)));
+                    decryptedText += ((char)( encryptedStory.charAt(i) +(26-key)));
                 } else {
-                    decryptedText.append(ch);
+                    decryptedText += (ch);
                 }
             }
             else if(Character.isLowerCase(encryptedStory.charAt(i)))
@@ -30,16 +30,17 @@ public class Decrypt {
                 char ch = (char)(((int)encryptedStory.charAt(i) -
                         key - 97) % 26 + 97);
                 if(ch <'a'){
-                    decryptedText.append((char)( encryptedStory.charAt(i) +(26-key)));
+                    decryptedText += ((char)( encryptedStory.charAt(i) +(26-key)));
                 } else {
-                    decryptedText.append(ch);
+                    decryptedText += (ch);
                 }
 
             }
             else {
 
                 char ch = encryptedStory.charAt(i);
-                return decryptedText.append(ch);
+
+                decryptedText += (ch);
             }
 
         }

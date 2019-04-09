@@ -1,16 +1,15 @@
 package CaesarCipher;
 
 
-
 public class Encrypt {
 
 
 
-    public static StringBuilder encrypt(String text, int s)
+    public static String encrypt(String text, int s)
 
     {
 
-        StringBuilder result= new StringBuilder();
+        String result= "";
 
         for (int i=0; i<text.length(); i++)
         {
@@ -18,10 +17,11 @@ public class Encrypt {
             {
                 char ch = (char)(((int)text.charAt(i) +
                         s - 65) % 26 + 65);
+
                 if(ch >'Z'){
-                    result.append((char)( text.charAt(i) -(26-s)));
+                    result += ((char)( text.charAt(i) -(26-s)));
                 } else {
-                    result.append(ch);
+                    result += (ch);
                 }
 
             }
@@ -31,16 +31,16 @@ public class Encrypt {
                         s - 97) % 26 + 97);
 
                 if(ch >'z'){
-                    result.append((char)( text.charAt(i) -(26-s)));
+                    result += ((char)( text.charAt(i) -(26-s)));
                 } else {
-                    result.append(ch);
+                    result += (ch);
                 }
 
             }
             else{
 
                 char ch = text.charAt(i);
-                result.append(ch);
+                result += (ch);
 
             }
         }

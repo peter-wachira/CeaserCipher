@@ -1,6 +1,6 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="Encrypt" type="Application" factoryName="Application" nameIsGenerated="true">
-    <option name="MAIN_CLASS_NAME" value="App" />
+  <configuration default="false" name="App" type="Application" factoryName="Application" nameIsGenerated="true">
+    <option name="MAIN_CLASS_NAME" value="CaesarCipher.App" />
     <module name="com_main" />
     <method v="2">
       <option name="Make" enabled="true" />

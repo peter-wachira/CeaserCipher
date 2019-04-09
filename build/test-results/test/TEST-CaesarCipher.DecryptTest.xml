@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CaesarCipher.DecryptTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-04-09T09:02:09" hostname="alpha-HP-EliteBook-8570p" time="0.005">
+  <properties/>
+  <testcase name="encrypt_testWordEncryption_String" classname="CaesarCipher.DecryptTest" time="0.003"/>
+  <testcase name="encrypt_testLetterEncryption_String" classname="CaesarCipher.DecryptTest" time="0.0"/>
+  <testcase name="encrypt_testSentenceEncryption_String" classname="CaesarCipher.DecryptTest" time="0.0"/>
+  <testcase name="encrypt_testLetterCase_String" classname="CaesarCipher.DecryptTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
