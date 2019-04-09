@@ -33,6 +33,7 @@ public class App {
             System.out.println("Enter shift key");
             int key = myScanner.nextInt();
             String encryptedStory = (encrypt(words, key));
+
             System.out.println("Here is your Encrpted story");
             System.out.println(encryptedStory);
             System.out.println("-------------------------------------------");
