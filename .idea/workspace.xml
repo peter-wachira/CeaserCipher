@@ -7,11 +7,6 @@
       <change afterPath="$PROJECT_DIR$/../Apps/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Apps/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Apps/Apps.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/App.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Pingpong/.idea/gradle.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Pingpong/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Pingpong/.idea/workspace.xml" afterDir="false" />
@@ -24,21 +19,7 @@
       <change beforePath="$PROJECT_DIR$/../Angular/IPS/Quotes-Angular/src/app/app.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../Angular/IPS/Quotes-Angular/src/app/app.component.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Angular/IPS/Quotes-Angular/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Angular/IPS/Quotes-Angular/src/app/app.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Angular/IPS/Quotes-Angular/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../Angular/IPS/Quotes-Angular/src/styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Decrypt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Decrypt.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Encrypt.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/scopes/encrypt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scopes/encrypt.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/CaesarCipher/Encrypt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/CaesarCipher/Encrypt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CaesarCipher/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Decrypt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CaesarCipher/Decrypt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Encrypt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CaesarCipher/Encrypt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AppTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DecryptTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DecryptTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/EncryptTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/EncryptTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CaesarCipher/Encrypt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CaesarCipher/Encrypt.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../javatests" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../jumia-clone" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../moringaschool/bootstrap-3.3.7-dist/css/bootstrap-theme.css" beforeDir="false" />
@@ -187,13 +168,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2637" />
+          <entry key="java" value="2652" />
           <entry key="md" value="181" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2637" />
+          <entry key="JAVA" value="2652" />
           <entry key="PLAIN_TEXT" value="181" />
         </counts>
       </usages-collector>
@@ -201,11 +182,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/CaesarCipher/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="44" column="18" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="18" />
+            <state relative-caret-position="102">
+              <caret line="32" column="50" lean-forward="true" selection-start-line="32" selection-start-column="50" selection-end-line="32" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -213,11 +194,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/CaesarCipher/Encrypt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-column="21" />
+            <state relative-caret-position="385">
+              <caret line="36" column="17" lean-forward="true" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -234,8 +215,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/EncryptTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="32" column="5" lean-forward="true" selection-start-line="28" selection-start-column="4" selection-end-line="32" selection-end-column="5" />
+            <state relative-caret-position="329">
+              <caret line="38" column="5" lean-forward="true" selection-start-line="33" selection-start-column="3" selection-end-line="38" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -246,8 +227,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/DecryptTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="29" column="77" selection-start-line="29" selection-start-column="77" selection-end-line="29" selection-end-column="77" />
+            <state relative-caret-position="279">
+              <caret line="33" column="16" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -577,11 +558,11 @@
         <option value="$PROJECT_DIR$/src/main/java/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/Decrypt.java" />
         <option value="$PROJECT_DIR$/src/main/java/Encrypt.java" />
-        <option value="$PROJECT_DIR$/src/main/java/CaesarCipher/Encrypt.java" />
         <option value="$PROJECT_DIR$/src/main/java/CaesarCipher/Decrypt.java" />
         <option value="$PROJECT_DIR$/src/main/java/CaesarCipher/App.java" />
         <option value="$PROJECT_DIR$/src/test/java/EncryptTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/DecryptTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/CaesarCipher/Encrypt.java" />
       </list>
     </option>
   </component>
@@ -664,7 +645,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554800566308" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554801585743" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="Encrypt" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
@@ -795,15 +776,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="EncryptTest - 2019.04.09 at 09h 42m 31s.xml">
-      <configuration name="EncryptTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EncryptTest - 2019.04.09 at 09h 43m 41s.xml">
-      <configuration name="EncryptTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EncryptTest - 2019.04.09 at 09h 43m 43s.xml">
-      <configuration name="EncryptTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="EncryptTest - 2019.04.09 at 09h 43m 51s.xml">
       <configuration name="EncryptTest" configurationId="JUnit" />
     </history-entry>
@@ -825,12 +797,21 @@
     <history-entry file="DecryptTest_encrypt_testWordEncryption_String - 2019.04.09 at 12h 00m 16s.xml">
       <configuration name="DecryptTest.encrypt_testWordEncryption_String" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="DecryptTest_encrypt_testWordEncryption_String - 2019.04.09 at 12h 02m 19s.xml">
+      <configuration name="DecryptTest.encrypt_testWordEncryption_String" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DecryptTest_encrypt_testWordEncryption_String - 2019.04.09 at 12h 02m 38s.xml">
+      <configuration name="DecryptTest.encrypt_testWordEncryption_String" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DecryptTest_encrypt_testWordEncryption_String - 2019.04.09 at 12h 02m 47s.xml">
+      <configuration name="DecryptTest.encrypt_testWordEncryption_String" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1366" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23939393" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11515152" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -839,7 +820,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.40293637" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3115824" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -848,7 +829,7 @@
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5007576" side_tool="true" weight="0.32952693" />
       <window_info anchor="bottom" id="Build" order="9" weight="0.32952693" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49924242" weight="0.11745514" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.17455138" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.12724307" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Gradle" order="1" weight="0.32954547" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
@@ -891,17 +872,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/CaesarCipher/Encrypt.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/CaesarCipher/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="21" />
+        <state relative-caret-position="102">
+          <caret line="32" column="50" lean-forward="true" selection-start-line="32" selection-start-column="50" selection-end-line="32" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/EncryptTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="32" column="5" lean-forward="true" selection-start-line="28" selection-start-column="4" selection-end-line="32" selection-end-column="5" />
+        <state relative-caret-position="329">
+          <caret line="38" column="5" lean-forward="true" selection-start-line="33" selection-start-column="3" selection-end-line="38" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -910,21 +894,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/DecryptTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="29" column="77" selection-start-line="29" selection-start-column="77" selection-end-line="29" selection-end-column="77" />
+        <state relative-caret-position="279">
+          <caret line="33" column="16" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/CaesarCipher/App.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/CaesarCipher/Encrypt.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="44" column="18" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="385">
+          <caret line="36" column="17" lean-forward="true" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
         </state>
       </provider>
     </entry>
