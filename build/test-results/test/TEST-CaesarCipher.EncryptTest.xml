@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="CaesarCipher.EncryptTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2019-04-09T09:02:09" hostname="alpha-HP-EliteBook-8570p" time="0.003">
+<testsuite name="CaesarCipher.EncryptTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2019-04-09T09:06:15" hostname="alpha-HP-EliteBook-8570p" time="0.003">
   <properties/>
   <testcase name="encrypt_testOtherCharacterEncryption_String" classname="CaesarCipher.EncryptTest" time="0.001"/>
-  <testcase name="encrypt_testWordEncryption_String" classname="CaesarCipher.EncryptTest" time="0.0"/>
+  <testcase name="encrypt_testWordEncryption_String" classname="CaesarCipher.EncryptTest" time="0.001"/>
   <testcase name="encrypt_testLetterEncryption_String" classname="CaesarCipher.EncryptTest" time="0.0"/>
   <testcase name="encrypt_testSentenceEncryption_String" classname="CaesarCipher.EncryptTest" time="0.0"/>
   <testcase name="encrypt_testLetterCase_String" classname="CaesarCipher.EncryptTest" time="0.0"/>

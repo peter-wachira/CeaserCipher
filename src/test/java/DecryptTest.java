@@ -30,5 +30,11 @@ public class DecryptTest{
         String expectedOutput  = "THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG";
         assertEquals(expectedOutput, testDecrypt.decrypt("QEB NRFZH YOLTK CLU GRJMP LSBO QEB IXWV ALD", 23));
     }
+    @Test
+    public void encrypt_testOtherCharacterEncryption_String(){
+        Decrypt testDecrypt = new Decrypt();
+        String expectedOutput  = "cde3!";
+        assertEquals(expectedOutput, testDecrypt.decrypt("def3!", 1));
+    }
 
 }
