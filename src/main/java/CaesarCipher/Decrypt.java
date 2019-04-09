@@ -28,7 +28,7 @@ public class Decrypt {
             else if(Character.isLowerCase(encryptedStory.charAt(i)))
             {
                 char ch = (char)(((int)encryptedStory.charAt(i) -
-                        keydecrypt));
+                        key));
                 if(ch <'a'){
                     decryptedText += ((char)( encryptedStory.charAt(i) +(26-key)));
                 } else {
